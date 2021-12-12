@@ -49,7 +49,7 @@ def canUnlockAll(boxes):
                         'status': 'opened',
                         'keys': boxes[key]
                     }
-                except KeyError:
+                except (KeyError, IndexError):
                     continue
         elif len(aux) == len(boxes):
             break
