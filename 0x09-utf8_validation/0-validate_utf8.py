@@ -1,6 +1,7 @@
 #!usr/bin/python3
 """This script defines validUTF8 function"""
 
+
 def validUTF8(data):
     """ Checks if a given data set represents a valid UTF-8 encoding """
     c = 0
