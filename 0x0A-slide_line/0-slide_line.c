@@ -92,4 +92,4 @@ int slide_line(int *line, size_t size, int direction)
 		return (1);
 	}
 	return (0);
-}s
+}
