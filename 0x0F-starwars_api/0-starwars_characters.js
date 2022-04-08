@@ -18,7 +18,7 @@ const makeGetRequest = (url) => {
   });
 };
 
-async function main() {
+async function main () {
   const result = await makeGetRequest(`https://swapi-api.hbtn.io/api/films/${process.argv[2]}`);
   for (const character of result.characters) {
     const { name } = await makeGetRequest(character);
